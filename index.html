@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noura | Mobile Developer & AI Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <a class="nav-name" href="#" onclick="showPage('about')">Noura</a>
+  <ul class="nav-links">
+    <li><a href="#" onclick="showPage('about')" id="nav-about" class="active">About</a></li>
+    <li><a href="#" onclick="showPage('portfolio')" id="nav-portfolio">Portfolio</a></li>
+    <li><a href="#" onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══ ABOUT ══ -->
+<section class="page active" id="page-about">
+  <div class="about-inner">
+    <div class="about-photo">
+		<img src="myPhoto.jpeg"/>
+    </div>
+    <div class="about-text">
+      <p class="tagline">Computer Science Graduate</p>
+      <h1>Noura Ayman Adel</h1>
+      <p>
+        Computer Science graduate from the Arab Academy for Science, Technology and Maritime Transport, holding a dual degree with the University of Northampton, UK. My academic and project work spans mobile development, software engineering, artificial intelligence, and UI/UX design.
+      </p>
+      <p>
+        I have hands-on experience building end-to-end systems — from Flutter and Kotlin/Wear OS mobile applications to deep learning models deployed on-device. I have participated in international programmes including an AI &amp; Cybersecurity summer school at the University of Salamanca, Spain, and completed industry training with EJADA Egypt (Temenos T24) and AASTMT's Integrated Simulators Complex.
+      </p>
+      <p>
+        I am actively seeking internships and entry-level opportunities in software engineering, mobile development, or UI/UX design.
+      </p>
+      <div class="about-chips">
+        <span class="chip">Java</span>
+        <span class="chip">Python</span>
+        <span class="chip">Kotlin</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Flutter</span>
+        <span class="chip">HTML &amp; CSS</span>
+        <span class="chip">Figma</span>
+        <span class="chip">Android Studio</span>
+        <span class="chip">Firebase</span>
+        <span class="chip">Machine Learning</span>
+      </div>
+      <a class="btn btn-outline" href="Noura Ayman.pdf" target="_blank">View CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO ══ -->
+<section class="page" id="page-portfolio">
+  <div class="portfolio-header">
+    <h2>Portfolio</h2>
+    <p>A selection of projects across mobile development, AI, design, and web.</p>
+  </div>
+  <div class="project-grid">
+
+    <div class="project-card" onclick="showProject('safeseiz')">
+      <div class="project-card-cover">
+		<img src="images/SafeSeiz/cover.png"/>	  
+      </div>
+      <div class="project-card-overlay">
+        <span class="project-card-tag">Graduation Project</span>
+        <h3>SafeSeiz</h3>
+        <p>AI-powered seizure detection system — Flutter, Kotlin/Wear OS· 2026</p>
+      </div>
+    </div>
+
+    <div class="project-card" onclick="showProject('dineeasy')">
+      <div class="project-card-cover">
+		<img src="images/dineEasy/cover.png"/>	  
+      </div>
+      <div class="project-card-overlay">
+        <span class="project-card-tag">HCI Project</span>
+        <h3>DineEasy</h3>
+        <p>Restaurant mobile app with full UX process . 2026</p>
+      </div>
+    </div>
+	
+	 <div class="project-card" onclick="showProject('funshroom')">
+      <div class="project-card-cover">
+		<img src="images/funshroom/cover.png"/>	  
+      </div>
+      <div class="project-card-overlay">
+        <span class="project-card-tag">Game Dev</span>
+        <h3>Fun-Shroom</h3>
+        <p>3D collectible Unity game with terrain, health system &amp; win/lose scenes · 2026</p>
+      </div>
+    </div>
+	
+	
+<div class="project-card" onclick="showProject('notesapp')">
+      <div class="project-card-cover">
+		<img src="images/Scribble/cover.png"/>	  
+      </div>
+      <div class="project-card-overlay">
+        <span class="project-card-tag">Android</span>
+        <h3>Notes App</h3>
+        <p>Android notes application — Kotlin · 2025</p>
+      </div>
+    </div>
+	
+	
+    <div class="project-card" onclick="showProject('fitpal')">
+      <div class="project-card-cover">
+		<img src="images/FitPal/cover.png"/>	  
+      </div>
+      <div class="project-card-overlay">
+        <span class="project-card-tag">Developer &amp; Designer</span>
+        <h3>FitPal</h3>
+        <p>Fitness app with BMI calculator and daily tracking — Java, JavaFX · 2024</p>
+      </div>
+    </div>
+
+	  <div class="project-card" onclick="showProject('ogretek')">
+    <div class="project-card-cover">
+		<img src="images/Ogretek/cover.png"/>	  
+      </div>	  
+      <div class="project-card-overlay">
+        <span class="project-card-tag">Startup</span>
+        <h3>Ogretek</h3>
+        <p>Design collection for a women-focused ride-booking app . 2023</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ══ PROJECT DETAIL ══ -->
+<section class="page" id="page-project">
+  <div class="project-detail-inner">
+    <button class="back-btn" onclick="showPage('portfolio')">← Back to Portfolio</button>
+    <div class="project-hero" id="project-hero">
+    <img id="project-hero-img" src="" alt="">
+</div>
+    <h1 class="project-meta-title" id="project-title"></h1>
+    <div class="project-meta-grid">
+      <div class="project-meta-item">
+        <label>Project Type</label>
+        <span id="project-type"></span>
+      </div>
+      <div class="project-meta-item">
+        <label>Role</label>
+        <span id="project-role"></span>
+      </div>
+      <div class="project-meta-item">
+        <label>Date</label>
+        <span id="project-date"></span>
+      </div>
+      <div class="project-meta-item">
+        <label>Link</label>
+        <a id="project-link" href="#" target="_blank"></a>
+      </div>
+    </div>
+    <p class="project-description" id="project-desc"></p>
+    <div class="project-gallery" id="project-gallery"></div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section class="page" id="page-contact">
+  <div class="contact-inner">
+    <h2>Get in Touch</h2>
+    <p class="subtitle">Open to internships, entry-level roles, and collaborations.</p>
+    <ul class="contact-list">
+      <li>
+        <a class="contact-item" href="mailto:noura9ayman@gmail.com">
+          <div class="contact-icon">✉</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">noura9ayman@gmail.com</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="contact-item" href="tel:+201069922248">
+          <div class="contact-icon">☎</div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+20 106 992 2248</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="contact-item" href="https://www.linkedin.com/in/noura-ayman" target="_blank">
+          <div class="contact-icon">in</div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">linkedin.com/noura-ayman</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="contact-item" href="https://github.com/nouraaymann" target="_blank">
+          <div class="contact-icon">⌥</div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">github.com/nouraaymann</div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  © 2026 Noura. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
