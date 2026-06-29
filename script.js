@@ -11,7 +11,7 @@ const projects = {
       galleryHTML: `
 <div class="gallery-row cols-1">
     <div class="gallery-img">
-        <img src="images/SafeSeiz/SplashScreen.png" alt="Splash Screen">
+        <img src="images/SafeSeiz/splashScreen.png" alt="Splash Screen">
         <div class="gallery-overlay">Splash Screen</div>
     </div>
 </div>
@@ -42,7 +42,7 @@ const projects = {
     </div>
 
     <div class="gallery-img">
-        <img src="images/SafeSeiz/emergencySOS.png" alt="Send a Manual Alert">
+        <img src="images/SafeSeiz/EmergencySOS.png" alt="Send a Manual Alert">
         <div class="gallery-overlay">Send a Manual Alert</div>
     </div>
 </div>
@@ -67,7 +67,7 @@ const projects = {
       galleryHTML: `
 <div class="gallery-row cols-1">
     <div class="gallery-img">
-        <img src="images/dineEasy/SplashScreen.png" alt="Splash Screen">
+        <img src="images/dineEasy/splashScreen.png" alt="Splash Screen">
         <div class="gallery-overlay">Splash Screen</div>
     </div>
 </div>
@@ -79,26 +79,26 @@ const projects = {
     </div>
 
     <div class="gallery-img">
-        <img src="images/dineeasy/homePage.png" alt="User Home">
+        <img src="images/dineEasy/homePage.png" alt="User Home">
         <div class="gallery-overlay">User Home</div>
     </div>
 </div>
 
 <div class="gallery-row cols-2">
     <div class="gallery-img">
-        <img src="images/DineEasy/Menu.png" alt="Menu">
+        <img src="images/dineEasy/Menu.png" alt="Menu">
         <div class="gallery-overlay">Menu</div>
     </div>
 
     <div class="gallery-img">
-        <img src="images/DineEasy/cart.png" alt="view cart">
+        <img src="images/dineEasy/cart.png" alt="view cart">
         <div class="gallery-overlay">view cart</div>
     </div>
 </div>
 
 <div class="gallery-row cols-1">
     <div class="gallery-img">
-        <img src="images/DineEasy/orderTrack.png" alt="Track your order">
+        <img src="images/dineEasy/orderTrack.png" alt="Track your order">
         <div class="gallery-overlay">Track your order</div>
     </div>
 	
@@ -183,7 +183,7 @@ const projects = {
         galleryHTML: `
 <div class="gallery-row cols-2">
     <div class="gallery-img">
-        <img src="images/Scribble/SplashScreen.png" alt="Splash Screen">
+        <img src="images/Scribble/splashScreen.png" alt="Splash Screen">
         <div class="gallery-overlay">Splash Screen</div>
     </div>
 	 <div class="gallery-img">
