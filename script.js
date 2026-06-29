@@ -177,17 +177,17 @@ const projects = {
       type: "Android notes application — Kotlin",
       role: "Developer",
       date: "2025",
-	  cover: "images/Scribble/cover.png",
+	  cover: "images/scribble/cover.png",
       link: { label: "Coming soon", url: "#" },
       desc: "A native Android notes application built in Kotlin as a team project. The app allows users to create, edit, and manage notes with a clean and intuitive interface following Material Design guidelines.",
         galleryHTML: `
 <div class="gallery-row cols-2">
     <div class="gallery-img">
-        <img src="images/Scribble/splashScreen.png" alt="Splash Screen">
+        <img src="images/scribble/splashScreen.png" alt="Splash Screen">
         <div class="gallery-overlay">Splash Screen</div>
     </div>
 	 <div class="gallery-img">
-        <img src="images/Scribble/writeNote.png" alt="Write Note">
+        <img src="images/scribble/writeNote.png" alt="Write Note">
         <div class="gallery-overlay">import, export or write a new note</div>
     </div>
 </div
