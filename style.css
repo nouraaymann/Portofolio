@@ -90,8 +90,8 @@ nav {
 }
 
 .about-photo {
-  width: 220px;
-  height: 220px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   background: var(--light-gray);
   display: flex;
@@ -99,6 +99,7 @@ nav {
   justify-content: center;
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: 40px;
 }
 
 .about-photo-placeholder {
