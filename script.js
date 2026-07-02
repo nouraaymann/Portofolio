@@ -188,7 +188,7 @@ const projects = {
     </div>
 	 <div class="gallery-img">
         <img src="images/scribble/writeNote.png" alt="Write Note">
-        <div class="gallery-overlay">import, export or write a new note</div>
+        <div class="gallery-overlay">Import, export or write a new note</div>
     </div>
 </div
 </div>
