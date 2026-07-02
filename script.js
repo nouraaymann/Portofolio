@@ -179,7 +179,7 @@ const projects = {
       date: "2025",
 	  cover: "images/scribble/cover.png",
       link: { label: "Coming soon", url: "#" },
-      desc: "A native Android notes application built in Kotlin as a team project. The app allows users to create, edit, and manage notes with a clean and intuitive interface following Material Design guidelines.",
+      desc: "A native Android notes application built in Kotlin. The app allows users to create, edit, and manage notes with a clean and intuitive interface.",
         galleryHTML: `
 <div class="gallery-row cols-2">
     <div class="gallery-img">
@@ -201,7 +201,7 @@ const projects = {
 	  cover: "images/funshroom/cover.png",
       date: "2024",
       link: { label: "Coming soon", url: "#" },
-      desc: "Fun-Shroom is a 3D collectible game built in Unity. Features include terrain design, a collectibles system, a health/lives system, multiple C# scripts for game mechanics, and fully designed win and lose scenes. Built as a team with Jayda Alaa for a game programming course.",
+      desc: "Fun-Shroom is a 3D collectible game built in Unity as part of a game programming course. Players explore a handcrafted terrain, collecting mushrooms while managing their health and lives across a fully designed game loop — complete with win and lose scenes. The project covers everything from terrain design and collectible mechanics to C# scripting and game state management.",
        galleryHTML: `
 <div class="gallery-row cols-1">
     <div class="gallery-img">
